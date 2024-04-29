@@ -11,8 +11,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello, my name is <span className="purple">Francisco Cardoso </span>
-            from <span className="purple"> Portugal.</span>
+            Hello, my name is <span className="blue">Francisco Cardoso </span>
+            from <span className="blue"> Portugal.</span>
             <br />
             I'm currently pursuing a Master's in AI Engineering at Instituto
             Superior de Engenharia do Porto, following my Bachelor's in Computer
