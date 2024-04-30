@@ -56,7 +56,7 @@ function AboutCard() {
               }
               `}
             </style>
-            ;
+            <br></br>
             <Button className="cv-button" variant="flat">
               Download CV
             </Button>

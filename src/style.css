@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
+    rgba(16, 17, 16, 0.582),
     rgba(12, 8, 24, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(16, 17, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
   );
 
   --imp-text-color: #48CAE4;
@@ -302,13 +302,13 @@ button:focus {
   }
 }
 
-.myAvtar {
+.myAvatar {
   justify-content: center !important;
   padding-top: 9em !important;
 }
 
 @media (max-width: 767px) {
-  .myAvtar {
+  .myAvatar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
@@ -377,12 +377,12 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #0096C7;
+  box-shadow: 0 0 15px #439fe1;
 }
 
 .home-social-icons:hover {
   color: #00B4D8;
-  box-shadow: 0 0 5px #00B4D8;
+  box-shadow: 0 0 5px #093dcd;
   text-shadow: 0 0 2px #00B4D8;
 }
 
@@ -400,7 +400,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(4, 21, 22);
+  background-color: rgb(3, 12, 21);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -463,7 +463,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(26, 199, 229, 0.131);
+  box-shadow: 4px 5px 4px 3px rgba(9, 113, 131, 0.131);
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -512,7 +512,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(26, 199, 229, 0.131);
+  box-shadow: 4px 5px 4px 3px rgba(9, 113, 131, 0.131);
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
