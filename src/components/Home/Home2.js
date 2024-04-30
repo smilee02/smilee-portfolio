@@ -18,7 +18,7 @@ function Home2() {
             <p className="home-about-body">
               I am fluent in
               <i>
-                <b className="blue"> Typescript and Python. </b>
+                <b className="blue"> English and Portuguese. </b>
               </i>
               <br />
               <br />

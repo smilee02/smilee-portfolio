@@ -12,7 +12,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hello, my name is <span className="blue">Francisco Cardoso </span>
-            from <span className="blue"> Portugal.</span>
+            and I'm from <span className="blue"> Portugal.</span>
             <br />
             I'm currently pursuing a Master's in AI Engineering at Instituto
             Superior de Engenharia do Porto, following my Bachelor's in Computer
