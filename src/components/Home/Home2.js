@@ -1,10 +1,7 @@
-import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Earth from "./Desk";
-import { OrbitControls } from "@react-three/drei";
 
 function Home2() {
   return (
@@ -36,21 +33,7 @@ function Home2() {
               , I've got a knack for hitting all the right keys.
             </p>
           </Col>
-          <Col md={4} className="myAvatar">
-            <Canvas>
-              <ambientLight />
-              <OrbitControls
-                enableZoom={false}
-                maxPolarAngle={Math.PI / 2}
-                minPolarAngle={Math.PI / 2}
-                maxAzimuthAngle={Math.PI / 8}
-                minAzimuthAngle={-Math.PI / 8}
-              />
-              <Suspense fallback={null}>
-                <Earth />
-              </Suspense>
-            </Canvas>
-          </Col>
+          <Col md={4} className="myAvatar"></Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

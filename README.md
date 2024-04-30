@@ -3,7 +3,7 @@
   <a href="https://smileee.netlify.app/" target="_blank">SmiLee</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/interface.png" />
+  <img alt="Demo" src="./Images/Interface.png" />
 </div>
 
 <br/>
@@ -15,10 +15,8 @@
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
 - CSS3
-- VsCode
+- VSCode
 
 ## Based On
 

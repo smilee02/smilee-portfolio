@@ -534,3 +534,12 @@ button:focus {
 }
 
 
+/* --------- */
+/* Contact */
+/* --------- */
+
+.contact-form {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
