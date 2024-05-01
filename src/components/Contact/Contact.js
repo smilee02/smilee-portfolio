@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ContactForm from "./ContactForm";
-
+import { Model } from "./Model";
 function Contact() {
   return (
     <Container fluid className="contact-section">
@@ -22,18 +23,26 @@ function Contact() {
             </h1>
             <ContactForm />
           </Col>
-          <Col
-            md={5}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              overflow: "hidden",
-              paddingTop: "30px",
-              paddingBottom: "30px",
-            }}
-            className="about-img circular-image"
-          ></Col>
+          <Col md={5}>
+            <Canvas shadows camera={{ position: [0, 0, 7] }}>
+              <Suspense fallback={null}>
+                <spotLight
+                  position={[0, 100, 100]}
+                  penumbra={1}
+                  intensity={1}
+                  castShadow
+                />
+                <spotLight
+                  position={[0, -100, 100]}
+                  penumbra={1}
+                  intensity={0.12}
+                  angle={0.9}
+                  castShadow
+                />
+                <Model />
+              </Suspense>
+            </Canvas>
+          </Col>
         </Row>
       </Container>
     </Container>
