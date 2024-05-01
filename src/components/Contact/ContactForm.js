@@ -74,7 +74,7 @@ function ContactForm() {
 
   return (
     <Card className="quote-card-view">
-      <Card.Body>
+      <Card.Body className="card-contact-form">
         <blockquote className="blockquote mb-0">
           <form ref={formRef} onSubmit={handleSubmit} className="contact-form">
             <label className="label-field">
