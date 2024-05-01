@@ -538,8 +538,99 @@ button:focus {
 /* Contact */
 /* --------- */
 
-.contact-form {
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.quote-card-view {
   border: none !important;
   color: white !important;
   background-color: transparent !important;
+}
+
+.quote-card-view .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-card-view .label-field {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.quote-card-view .label-field span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.quote-card-view input[type="text"],
+.quote-card-view input[type="email"],
+.quote-card-view textarea {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(144, 224, 239,0.636) !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(9, 113, 131, 0.131);
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background: transparent;
+  color: white;
+}
+
+::placeholder {
+  color: rgb(198, 198, 198);
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgb(198, 198, 198);
+}
+
+.quote-card-view input[type="text"]:focus,
+.quote-card-view input[type="email"]:focus,
+.quote-card-view textarea:focus {
+  transform: scale(1.01) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(50, 205, 232, 0.636) !important;
+  outline: none;
+}
+
+
+
+.contact-submit-button {
+  font-size: 2.0em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(144, 224, 239,0.636) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(9, 113, 131, 0.131);
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .contact-submit-button {
+    margin: 10px !important;
+  }
+}
+
+.contact-submit-button:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(50, 205, 232, 0.636) !important;
 }

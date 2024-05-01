@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useRef } from "react";
 import Card from "react-bootstrap/Card";
 import emailjs from "@emailjs/browser";
+import { Button } from "react-bootstrap";
 
 function ContactForm() {
   const formRef = useRef();
@@ -21,20 +22,37 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
 
+    // Check if name, email, and message are not empty
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      let errorMessage = "Please fill in the following fields:";
+      if (!form.name.trim()) {
+        errorMessage += "\n- Name";
+      }
+      if (!form.email.trim()) {
+        errorMessage += "\n- Email";
+      }
+      if (!form.message.trim()) {
+        errorMessage += "\n- Message";
+      }
+      alert(errorMessage);
+      return;
+    }
+    setLoading(true);
     emailjs
       .send(
-        "service_gioye65",
-        "template_c0tcjey",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "SmiLee",
+          to_name: process.env.REACT_APP_TO_NAME,
           from_email: form.email,
-          to_email: "skrarnermid@gmail.com",
+          to_email: process.env.REACT_APP_TO_EMAIL,
           message: form.message,
         },
-        "gZK-po_Dap9PBmf1o"
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_API_KEY,
+        }
       )
       .then(
         () => {
@@ -55,10 +73,10 @@ function ContactForm() {
   };
 
   return (
-    <Card className="contact-form">
+    <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <form ref={formRef} onSubmit={handleSubmit} className="form-fields">
+          <form ref={formRef} onSubmit={handleSubmit} className="contact-form">
             <label className="label-field">
               <span>Your Name</span>
               <input
@@ -70,6 +88,7 @@ function ContactForm() {
                 className="name-form-field"
               ></input>
             </label>
+
             <label className="label-field">
               <span>Your Email</span>
               <input
@@ -81,21 +100,22 @@ function ContactForm() {
                 className="email-form-field"
               ></input>
             </label>
+
             <label className="label-field">
               <span>Your Message</span>
-              <input
-                rows="7"
+              <textarea
+                rows="5"
                 type="text"
                 name="message"
                 value={form.message}
                 onChange={handleChange}
                 placeholder="What do you want to say?"
                 className="message-form-field"
-              ></input>
+              ></textarea>
             </label>
-          </form>
-          <style type="text/css">
-            {`
+
+            <style type="text/css">
+              {`
               .btn-flat {
                 background-color: transparent;
                 color: white;
@@ -104,10 +124,15 @@ function ContactForm() {
                 color: white;
               }
               `}
-          </style>
-          <button type="submit" className="cv-button" variant="flat">
-            {loading ? "Sending..." : "Send"}
-          </button>
+            </style>
+            <Button
+              type="submit"
+              className="contact-submit-button"
+              variant="flat"
+            >
+              {loading ? "Sending..." : "Send"}
+            </Button>
+          </form>
         </blockquote>
       </Card.Body>
     </Card>

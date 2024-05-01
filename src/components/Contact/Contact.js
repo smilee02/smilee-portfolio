@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="contact-section">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
