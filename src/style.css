@@ -440,6 +440,32 @@ button:focus {
   color: #ADE8F4 !important;
 }
 
+/* --------- */
+/* Projects */
+/* --------- */
+
+.projects-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.quote-card-view .project-card-view{
+  margin-top: 5px;
+  border-radius: 4px;
+  margin: 15px !important;
+  padding: 20px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(144, 224, 239,0.636) !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(9, 113, 131, 0.131);
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background: transparent;
+}
 
 /* --------- */
 /* About */
@@ -651,3 +677,4 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(50, 205, 232, 0.636) !important;
 }
+

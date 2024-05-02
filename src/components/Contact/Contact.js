@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ContactForm from "./ContactForm";
 import { Model } from "./Model";
+import ModelLoader from "./ModelLoader";
 function Contact() {
   return (
     <Container fluid className="contact-section">
@@ -25,7 +26,7 @@ function Contact() {
           </Col>
           <Col md={5}>
             <Canvas shadows camera={{ position: [0, 0, 7] }}>
-              <Suspense fallback={null}>
+              <Suspense fallback={<ModelLoader />}>
                 <spotLight
                   position={[0, 100, 100]}
                   penumbra={1}

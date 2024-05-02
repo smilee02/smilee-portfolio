@@ -1,0 +1,79 @@
+[
+    {
+        "title": "E-commerce Website",
+        "imageSrc": "fff.png",
+        "description": "Built a fully functional e-commerce website using MERN stack.",
+        "tags": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Express.js",
+            "JavaScript"
+        ],
+        "specificWords": [
+            "e-commerce",
+            "MERN"
+        ]
+    },
+    {
+        "title": "Weather App",
+        "imageSrc": "fff.png",
+        "description": "Developed a weather application that provides real-time weather data based on user location.",
+        "tags": [
+            "React",
+            "API",
+            "JavaScript",
+            "CSS"
+        ],
+        "specificWords": [
+            "e-commerce",
+            "MERN"
+        ]
+    },
+    {
+        "title": "To-Do List App",
+        "imageSrc": "fff.png",
+        "description": "Created a to-do list application with CRUD functionality using React and Firebase.",
+        "tags": [
+            "React",
+            "Firebase",
+            "JavaScript",
+            "CSS"
+        ],
+        "specificWords": [
+            "e-commerce",
+            "MERN"
+        ]
+    },
+    {
+        "title": "Portfolio Website",
+        "imageSrc": "fff.png",
+        "description": "Designed and implemented a personal portfolio website showcasing projects, skills, and experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "specificWords": [
+            "e-commerce",
+            "MERN"
+        ]
+    },
+    {
+        "title": "Blog Website",
+        "imageSrc": "fff.png",
+        "description": "Developed a blog website using Django framework with user authentication and CRUD operations.",
+        "tags": [
+            "Python",
+            "Django",
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "specificWords": [
+            "e-commerce",
+            "MERN"
+        ]
+    }
+]
