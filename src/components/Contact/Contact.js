@@ -25,7 +25,7 @@ function Contact() {
             <ContactForm />
           </Col>
           <Col md={5}>
-            <Canvas shadows camera={{ position: [0, 0, 7] }}>
+            <Canvas shadows>
               <Suspense fallback={<ModelLoader />}>
                 <spotLight
                   position={[0, 100, 100]}
