@@ -1,10 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
+import { useThree } from "@react-three/fiber";
 
 export function Model(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/Contact.glb");
   const { actions } = useAnimations(animations, group);
+  const { viewport } = useThree();
 
   useEffect(() => {
     for (const actionName in actions) {
@@ -12,7 +14,7 @@ export function Model(props) {
     }
   }, [actions]);
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group ref={group} {...props} dispose={null} scale={viewport.width / 6.5}>
       <group name="Scene">
         <group
           name="BézierCircle"
