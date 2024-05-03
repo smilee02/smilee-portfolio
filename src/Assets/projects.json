@@ -1,18 +1,21 @@
 [
     {
-        "title": "E-commerce Website",
-        "imageSrc": "fff.png",
-        "description": "Built a fully functional e-commerce website using MERN stack.",
+        "title": "Eletric Go",
+        "imageSrc": "eletric_go_1.png",
+        "description": "Optimization of delivery routes using electric trucks for warehouse distribution, offering RESTful services, a user-friendly interface, and 3D visualization of the network. <br>It employs genetic algorithms for efficient route planning while adhering to charging rules.",
         "tags": [
-            "React",
+            "Angular",
             "Node.js",
             "MongoDB",
             "Express.js",
-            "JavaScript"
+            "Three.JS",
+            ".NET"
         ],
         "specificWords": [
-            "e-commerce",
-            "MERN"
+            "Optimization",
+            "RESTful",
+            "3D",
+            "genetic algorithms"
         ]
     },
     {

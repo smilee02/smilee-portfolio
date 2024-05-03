@@ -3,12 +3,13 @@ import React, { useState, useEffect } from "react";
 import { useGLTF } from "@react-three/drei";
 import laptopImg from "../Assets/profile_image.jpg";
 import contactImg from "../Assets/contact.png";
+import bgImg from "../Assets/home-bg.jpg";
 
 function Pre(props) {
   const [contentLoaded, setContentLoaded] = useState(false);
 
   useEffect(() => {
-    const IMAGES = [laptopImg, contactImg];
+    const IMAGES = [laptopImg, bgImg, contactImg];
     const loadImage = (image) => {
       return new Promise((resolve, reject) => {
         const loadImg = new Image();
