@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
+import avatar from "../../Assets/avatar.svg";
 
 function Home2() {
   return (
@@ -33,7 +35,11 @@ function Home2() {
               , I've got a knack for hitting all the right keys.
             </p>
           </Col>
-          <Col md={4} className="myAvatar"></Col>
+          <Col md={4} className="myAvatar">
+            <Tilt>
+              <img src={avatar} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

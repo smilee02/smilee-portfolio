@@ -304,7 +304,8 @@ button:focus {
 
 .myAvatar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 6em !important;
+  padding-bottom: 4em !important;
 }
 
 @media (max-width: 767px) {
@@ -484,6 +485,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
+  color:white;
   border: 1.7px solid rgba(144, 224, 239,0.636) !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -678,3 +680,16 @@ button:focus {
   border: 2.2px solid rgba(50, 205, 232, 0.636) !important;
 }
 
+.contact-image{
+  justify-content: center !important;
+  padding-top: 10em !important;
+  padding-bottom: 4em !important;
+  
+}
+
+@media (max-width: 767px) {
+  .contact-image {
+    padding-top: 0em !important;
+    padding-bottom: 2em !important;
+  }
+}

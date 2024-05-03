@@ -1,10 +1,8 @@
-import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ContactForm from "./ContactForm";
-import { Model } from "./Model";
-import ModelLoader from "./ModelLoader";
+import contactImg from "../../Assets/contact.png";
 function Contact() {
   return (
     <Container fluid className="contact-section">
@@ -25,24 +23,11 @@ function Contact() {
             <ContactForm />
           </Col>
           <Col md={5}>
-            <Canvas shadows>
-              <Suspense fallback={<ModelLoader />}>
-                <spotLight
-                  position={[0, 100, 100]}
-                  penumbra={1}
-                  intensity={1}
-                  castShadow
-                />
-                <spotLight
-                  position={[0, -100, 100]}
-                  penumbra={1}
-                  intensity={0.12}
-                  angle={0.9}
-                  castShadow
-                />
-                <Model />
-              </Suspense>
-            </Canvas>
+            <img
+              src={contactImg}
+              className="img-fluid contact-image"
+              alt="contact"
+            />
           </Col>
         </Row>
       </Container>
