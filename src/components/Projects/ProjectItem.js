@@ -37,11 +37,9 @@ function ProjectItem(props) {
                 justifyContent: "center",
                 alignItems: "center",
                 overflow: "hidden",
-                paddingTop: "10px",
-                paddingBottom: "10px",
               }}
             >
-              <div style={{ width: "400px", height: "300px" }}>
+              <div>
                 <img
                   src={require(`../../Assets/${imageSrc}`)}
                   alt={title}
@@ -51,7 +49,7 @@ function ProjectItem(props) {
               </div>
             </Col>
 
-            <Col md={8}>
+            <Col md={8} className="project-text-container">
               <h2 style={{ paddingTop: "10px", textAlign: "justify" }}>
                 {title}
               </h2>

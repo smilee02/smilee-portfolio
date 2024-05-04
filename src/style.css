@@ -45,7 +45,7 @@ html {
   --machine-learning-box-shadow: rgb(32, 129, 199,0.131);
 
   --python-color: rgb(255,229,104);
-  --python-box-shadow: rgb(62,127,177,0.131);
+  --python-box-shadow: rgba(177, 175, 62, 0.131);
 
   --react-native-color:rgb(97,219,251);
   --react-native-box-shadow: rgb(97,219,251,0.131);
@@ -527,6 +527,12 @@ button:focus {
   margin-top: auto; 
 }
 
+.project-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start; 
+}
 
 /* Angular tag */
 .angular-tag {
