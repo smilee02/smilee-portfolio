@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ContactForm from "./ContactForm";
-import contactImg from "../../Assets/contact.png";
+import contactImg from "../../Assets/contact.webp";
 function Contact() {
   return (
     <Container fluid className="contact-section">
@@ -25,6 +25,7 @@ function Contact() {
           <Col md={5}>
             <img
               src={contactImg}
+              loading="lazy"
               className="img-fluid contact-image"
               alt="contact"
             />

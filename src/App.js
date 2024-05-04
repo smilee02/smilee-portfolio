@@ -25,16 +25,53 @@ import "./styles/contact.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import contact from "./Assets/contact.webp";
+import eletric_go_1 from "./Assets/eletric_go_1.webp";
+import home from "./Assets/home-bg.webp";
+import morny_1 from "./Assets/morny_1.webp";
+import profile_image from "./Assets/profile_image.webp";
+import schedulexp_1 from "./Assets/schedulexp_1.webp";
+import slippage_saver_1 from "./Assets/slippage_saver_1.webp";
+
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 500);
+    // Function to preload images
+    const preloadImages = async () => {
+      const imageUrls = [
+        contact,
+        eletric_go_1,
+        home,
+        morny_1,
+        profile_image,
+        schedulexp_1,
+        slippage_saver_1,
+      ];
 
-    return () => clearTimeout(timer);
-  }, []);
+      // Create an array of promises to load images
+      const promises = imageUrls.map((url) => {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.src = url;
+          img.onload = resolve;
+          img.onerror = reject;
+        });
+      });
+
+      try {
+        // Wait for all images to be loaded
+        await Promise.all(promises);
+        // Once all images are loaded, set load state to false
+        updateLoad(false);
+      } catch (error) {
+        console.error("Error preloading images:", error);
+      }
+    };
+
+    // Call the preloadImages function
+    preloadImages();
+  }, []); // Empty dependency array ensures this effect runs only once
 
   return (
     <Router>

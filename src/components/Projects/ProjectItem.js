@@ -43,6 +43,7 @@ function ProjectItem(props) {
                 <img
                   src={require(`../../Assets/${imageSrc}`)}
                   alt={title}
+                  loading="lazy"
                   className="img-fluid"
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />

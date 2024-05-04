@@ -41,6 +41,7 @@ function About() {
               <img
                 src={laptopImg}
                 alt="about"
+                loading="lazy"
                 className="img-fluid rounded-circle"
               />
             </Tilt>
