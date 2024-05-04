@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
+import tagClasses from "./styleTags.json";
 
 function ProjectItem(props) {
   const project = props.project;
@@ -8,6 +9,7 @@ function ProjectItem(props) {
   const words = project.specificWords;
   const imageSrc = project.imageSrc;
   const description = project.description;
+  const tags = project.tags;
 
   const highlightWords = (text, words) => {
     let highlightedText = text;
@@ -38,14 +40,17 @@ function ProjectItem(props) {
                 paddingTop: "10px",
                 paddingBottom: "10px",
               }}
-              className="project-img"
             >
-              <img
-                src={require(`../../Assets/${imageSrc}`)}
-                alt={title}
-                className="img-fluid"
-              />
+              <div style={{ width: "400px", height: "300px" }}>
+                <img
+                  src={require(`../../Assets/${imageSrc}`)}
+                  alt={title}
+                  className="img-fluid project-image"
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
             </Col>
+
             <Col md={8}>
               <h2 style={{ paddingTop: "10px", textAlign: "justify" }}>
                 {title}
@@ -54,6 +59,14 @@ function ProjectItem(props) {
                 dangerouslySetInnerHTML={{ __html: highlightedDescription }}
                 style={{ paddingTop: "5px", textAlign: "justify" }}
               />
+              <div className="tag-container">
+                {tags.map((tag, index) => (
+                  <span className={`tag-item ${tagClasses[tag]}`} key={tag}>
+                    {tag}
+                    {index !== tags.length - 1}
+                  </span>
+                ))}
+              </div>
             </Col>
           </Row>
         </blockquote>

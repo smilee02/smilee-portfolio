@@ -1,0 +1,19 @@
+{
+    "Angular": "angular-tag",
+    "Node.js": "nodejs-tag",
+    "MongoDB": "mongodb-tag",
+    "three.js": "threejs-tag",
+    ".NET Core": "dotnet-tag",
+    "Tensorflow": "tensorflow-tag",
+    "Python": "python-tag",
+    "React": "react-tag",
+    "Prolog": "prolog-tag",
+    "Java": "java-tag",
+    "Drools": "drools-tag",
+    "Genetic Algorithm": "genetic-algorithm-tag",
+    "Machine Learning": "machine-learning-tag",
+    "React Native": "react-native-tag",
+    "Expo": "expo-tag",
+    "Deep Learning": "deep-learning-tag",
+    "NLP": "nlp-tag"
+}

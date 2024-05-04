@@ -2,14 +2,14 @@
     {
         "title": "Eletric Go",
         "imageSrc": "eletric_go_1.png",
-        "description": "Optimization of delivery routes using electric trucks for warehouse distribution, offering RESTful services, a user-friendly interface, and 3D visualization of the network. <br>It employs genetic algorithms for efficient route planning while adhering to charging rules.",
+        "description": "Optimization of delivery routes using electric trucks for warehouse distribution, offering RESTful services, a user-friendly interface, and a 3D visualization of the network. <br>It employs genetic algorithms for efficient route planning while adhering to charging rules.",
         "tags": [
             "Angular",
             "Node.js",
             "MongoDB",
-            "Express.js",
-            "Three.JS",
-            ".NET"
+            "three.js",
+            ".NET Core",
+            "Genetic Algorithm"
         ],
         "specificWords": [
             "Optimization",
@@ -19,29 +19,33 @@
         ]
     },
     {
-        "title": "Weather App",
+        "title": "Slippage Saver",
         "imageSrc": "fff.png",
-        "description": "Developed a weather application that provides real-time weather data based on user location.",
+        "description": "The project entailed developing two expert systems to aid financial auditors in identifying financial irregularities by analyzing annual company financial data such as balance sheets and income statements.<br> One system is built in Prolog, and the other in Java using Drools. Both of these expert systems are available in an Angular user-friendly interface.",
         "tags": [
-            "React",
-            "API",
-            "JavaScript",
-            "CSS"
+            "Angular",
+            "Prolog",
+            "Java",
+            "Drools"
         ],
         "specificWords": [
-            "e-commerce",
-            "MERN"
+            "expert systems",
+            "Prolog",
+            "Drools",
+            "aid",
+            "identifying financial irregularities",
+            "Angular"
         ]
     },
     {
-        "title": "To-Do List App",
+        "title": "SchedulExp",
         "imageSrc": "fff.png",
         "description": "Created a to-do list application with CRUD functionality using React and Firebase.",
         "tags": [
-            "React",
-            "Firebase",
-            "JavaScript",
-            "CSS"
+            "Angular",
+            "Python",
+            "Machine Learning",
+            "Genetic Algorithm"
         ],
         "specificWords": [
             "e-commerce",
@@ -49,30 +53,15 @@
         ]
     },
     {
-        "title": "Portfolio Website",
+        "title": "Morny",
         "imageSrc": "fff.png",
         "description": "Designed and implemented a personal portfolio website showcasing projects, skills, and experience.",
         "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap"
-        ],
-        "specificWords": [
-            "e-commerce",
-            "MERN"
-        ]
-    },
-    {
-        "title": "Blog Website",
-        "imageSrc": "fff.png",
-        "description": "Developed a blog website using Django framework with user authentication and CRUD operations.",
-        "tags": [
+            "React Native",
+            "Expo",
             "Python",
-            "Django",
-            "HTML",
-            "CSS",
-            "Bootstrap"
+            "Deep Learning",
+            "NLP"
         ],
         "specificWords": [
             "e-commerce",
