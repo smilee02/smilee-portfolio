@@ -13,7 +13,15 @@ import {
   Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import "./style.css";
+import "./styles/style.css";
+import "./styles/preload.css";
+import "./styles/scrollbar.css";
+import "./styles/navbar.css";
+import "./styles/home.css";
+import "./styles/footer.css";
+import "./styles/projects.css";
+import "./styles/about.css";
+import "./styles/contact.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -23,7 +31,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);

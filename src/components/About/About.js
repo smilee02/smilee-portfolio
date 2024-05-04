@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/profile_image.jpg";
+import laptopImg from "../../Assets/profile_image.webp";
 import Tilt from "react-parallax-tilt";
 
 function About() {

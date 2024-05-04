@@ -1,0 +1,72 @@
+html {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(16, 17, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(16, 17, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --border-color-default:1.7px solid rgba(144, 224, 239,0.636) !important;
+  --border-shadow-default: 4px 5px 4px 3px rgba(9, 113, 131, 0.131) !important;
+
+  --angular-color: rgba(221,0,49);
+  --angular-box-shadow: rgba(195,0,47,0.131);
+
+  --nodejs-color: rgba(128,189,0);
+  --nodejs-box-shadow: rgba(0, 189, 0, 0.131);
+
+  --mongodb-color: rgba(19, 212, 103);
+  --mongodb-box-shadow: rgba(10,147,78,0.131);
+
+  --threejs-color: rgba(255, 255, 255);
+  --threejs-box-shadow: rgba(255, 255, 255, 0.131);
+
+  --dotnet-color: rgba(147, 95, 203);
+  --dotnet-box-shadow: rgba(111, 47, 180, 0.131);
+
+  --java-color: rgba(213, 129, 12);
+  --java-box-shadow: rgba(226, 112, 12, 0.131);
+
+  --prolog-color: rgba(227, 72, 77);
+  --prolog-box-shadow: rgba(227, 72, 77, 0.131);
+
+  --drools-color: rgb(255,138,18);
+  --drools-box-shadow: rgb(255,138,18,0.131);
+
+  --genetic-algorithm-color: rgb(32, 199, 54);
+  --genetic-algorithm-box-shadow: rgb(32, 199, 54,0.131);
+
+  --machine-learning-color: rgb(32, 129, 199);
+  --machine-learning-box-shadow: rgb(32, 129, 199,0.131);
+
+  --python-color: rgb(255,229,104);
+  --python-box-shadow: rgba(177, 175, 62, 0.131);
+
+  --react-native-color:rgb(97,219,251);
+  --react-native-box-shadow: rgb(97,219,251,0.131);
+
+  --expo-color: rgb(70,48,235);
+  --expo-box-shadow: rgb(70,48,235,0.131);
+
+  --deep-learning-color:rgb(128, 0, 128);
+  --deep-learning-box-shadow: rgb(128, 0, 128,0.131);
+
+  --nlp-color: rgb(255, 165, 0);
+  --nlp-box-shadow: rgb(255, 165, 0,0.131);
+
+
+  --imp-text-color: #48CAE4;
+}
+
+.blue {
+  color: var(--imp-text-color) !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+}

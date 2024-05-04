@@ -1,8 +1,8 @@
 [
     {
         "title": "Eletric Go",
-        "imageSrc": "eletric_go_1.png",
-        "description": "Optimization of delivery routes using electric trucks for warehouse distribution, offering RESTful services, a user-friendly interface, and a 3D visualization of the network. <br>It employs genetic algorithms for efficient route planning while adhering to charging rules.",
+        "imageSrc": "eletric_go_1.webp",
+        "description": "Optimization of delivery routes using electric trucks for warehouse distribution, offering RESTful services, a user-friendly interface, and a 3D visualization of the network. <br>The route planning was done with genetic algorithms while adhering to charging rules.",
         "tags": [
             "Angular",
             "Node.js",
@@ -20,8 +20,8 @@
     },
     {
         "title": "Slippage Saver",
-        "imageSrc": "fff.png",
-        "description": "The project entailed developing two expert systems to aid financial auditors in identifying financial irregularities by analyzing annual company financial data such as balance sheets and income statements.<br> One system is built in Prolog, and the other in Java using Drools. Both of these expert systems are available in an Angular user-friendly interface.",
+        "imageSrc": "slippage_saver_1.webp",
+        "description": "Development of two expert systems to aid financial auditors in identifying financial irregularities by analyzing annual company financial data.<br> One system is built in Prolog, and the other in Java using Drools. Both of these expert systems are available in an Angular user-friendly interface.",
         "tags": [
             "Angular",
             "Prolog",
@@ -39,8 +39,8 @@
     },
     {
         "title": "SchedulExp",
-        "imageSrc": "fff.png",
-        "description": "Created a to-do list application with CRUD functionality using React and Firebase.",
+        "imageSrc": "schedulexp_1.webp",
+        "description": "Classification of fraudulent insurance claims on car accidents and scheduling of insurance experts to the accident location for a claims expertise.<br> The classifcation of the claims was done using scikit-learn a Machine Learning library for Python, and the allocation of experts using a genetic algorithm.",
         "tags": [
             "Angular",
             "Python",
@@ -48,14 +48,20 @@
             "Genetic Algorithm"
         ],
         "specificWords": [
-            "e-commerce",
-            "MERN"
+            "Classification",
+            "fraudulent insurance claims",
+            "scheduling",
+            "insurance experts",
+            "scikit-learn",
+            "Machine Learning",
+            "Python",
+            "genetic algorithm"
         ]
     },
     {
         "title": "Morny",
-        "imageSrc": "fff.png",
-        "description": "Designed and implemented a personal portfolio website showcasing projects, skills, and experience.",
+        "imageSrc": "morny_1.webp",
+        "description": "Chatbot tailored for investment advice in stocks and ETFs, incorporating forecasting of financial products and sentiment analysis of news articles for recommendations.<br> Both forecasting and sentiment analysis utilize Neural Networks implemented with Tensorflow.",
         "tags": [
             "React Native",
             "Expo",
@@ -64,8 +70,12 @@
             "NLP"
         ],
         "specificWords": [
-            "e-commerce",
-            "MERN"
+            "Chatbot",
+            "investment advice",
+            "forecasting",
+            "sentiment analysis",
+            "Neural Networks",
+            "Tensorflow"
         ]
     }
 ]
