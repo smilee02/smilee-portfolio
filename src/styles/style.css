@@ -59,6 +59,14 @@ html {
   --nlp-color: rgb(255, 165, 0);
   --nlp-box-shadow: rgb(255, 165, 0,0.131);
 
+  --blender-color: rgb(255, 165, 0);
+  --blender-box-shadow: rgb(255, 165, 0,0.131);
+
+  --react-color:rgb(97,219,251);
+  --react-box-shadow: rgb(97,219,251,0.131);
+
+  --js-color: rgb(246, 246, 8);
+  --js-box-shadow: rgb(246, 246, 8,0.131);
 
   --imp-text-color: #48CAE4;
 }

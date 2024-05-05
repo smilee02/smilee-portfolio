@@ -60,7 +60,10 @@ function ProjectItem(props) {
               />
               <div className="tag-container">
                 {tags.map((tag, index) => (
-                  <span className={`tag-item ${tagClasses[tag]}`} key={tag}>
+                  <span
+                    className={`unselectable tag-item ${tagClasses[tag]}`}
+                    key={tag}
+                  >
                     {tag}
                     {index !== tags.length - 1}
                   </span>

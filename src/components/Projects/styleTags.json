@@ -15,5 +15,7 @@
     "React Native": "react-native-tag",
     "Expo": "expo-tag",
     "Deep Learning": "deep-learning-tag",
-    "NLP": "nlp-tag"
+    "NLP": "nlp-tag",
+    "Blender": "blender-tag",
+    "JavaScript": "js-tag"
 }

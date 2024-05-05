@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Portfolio",
+        "imageSrc": "Interface.webp",
+        "description": "Portfolio website to showcase a selection of my most impactful projects and my capabilities.",
+        "tags": [
+            "React",
+            "JavaScript",
+            "Blender"
+        ],
+        "specificWords": [
+            "showcase",
+            "impactful projects"
+        ]
+    }
+]

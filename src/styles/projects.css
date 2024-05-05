@@ -53,7 +53,7 @@
   .angular-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--angular-color) !important;
+    border: 1.7px solid var(--angular-color) !important;
   }
   
   /* Node.js tag */
@@ -65,7 +65,7 @@
   .nodejs-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--nodejs-color) !important;
+    border: 1.7px solid var(--nodejs-color) !important;
   }
   
   /* MongoDB tag */
@@ -77,7 +77,7 @@
   .mongodb-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--mongodb-color) !important;
+    border: 1.7px solid var(--mongodb-color) !important;
   }
   
   /* Three.js tag */
@@ -89,7 +89,7 @@
   .threejs-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--threejs-color) !important;
+    border: 1.7px solid var(--threejs-color) !important;
   }
   
   /* .NET tag */
@@ -101,7 +101,7 @@
   .dotnet-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--dotnet-color) !important;
+    border: 1.7px solid var(--dotnet-color) !important;
   }
   
   /* Java tag */
@@ -113,7 +113,7 @@
   .java-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--java-color) !important;
+    border: 1.7px solid var(--java-color) !important;
   }
   
   /* Prolog tag */
@@ -125,7 +125,7 @@
   .prolog-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--prolog-color) !important;
+    border: 1.7px solid var(--prolog-color) !important;
   }
   
   /* Drools tag */
@@ -137,7 +137,7 @@
   .drools-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--drools-color) !important;
+    border: 1.7px solid var(--drools-color) !important;
   }
   
   /* Genetic Algorithm tag */
@@ -149,7 +149,7 @@
   .genetic-algorithm-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--genetic-algorithm-color) !important;
+    border: 1.7px solid var(--genetic-algorithm-color) !important;
   }
   
   /* Machine Learning tag */
@@ -161,7 +161,7 @@
   .machine-learning-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--machine-learning-color) !important;
+    border: 1.7px solid var(--machine-learning-color) !important;
   }
   
   /* Python tag */
@@ -173,7 +173,7 @@
   .python-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--python-color) !important;
+    border: 1.7px solid var(--python-color) !important;
   }
   
   /* React Native tag */
@@ -185,7 +185,7 @@
   .react-native-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--react-native-color) !important;
+    border: 1.7px solid var(--react-native-color) !important;
   }
   
   /* Expo tag */
@@ -197,7 +197,7 @@
   .expo-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--expo-color) !important;
+    border: 1.7px solid var(--expo-color) !important;
   }
   
   /* Deep Learning tag */
@@ -209,7 +209,7 @@
   .deep-learning-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--deep-learning-color) !important;
+    border: 1.7px solid var(--deep-learning-color) !important;
   }
   
   /* NLP tag */
@@ -221,9 +221,54 @@
   .nlp-tag:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid var(--nlp-color) !important;
+    border: 1.7px solid var(--nlp-color) !important;
+  }
+
+  /* Blender tag */
+  .blender-tag {
+    border: 1.7px solid var(--blender-color) !important;
+    box-shadow: 4px 5px 4px var(--blender-box-shadow);
   }
   
+  .blender-tag:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 1.7px solid var(--blender-color) !important;
+  }
+
+  /* React tag */
+  .react-tag {
+    border: 1.7px solid var(--react-color) !important;
+    box-shadow: 4px 5px 4px var(--react-box-shadow);
+  }
+  
+  .react-tag:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 1.7px solid var(--react-color) !important;
+  }
+
+  /* JS tag */
+  .js-tag {
+    border: 1.7px solid var(--js-color) !important;
+    box-shadow: 4px 5px 4px var(--js-box-shadow);
+  }
+  
+  .js-tag:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 1.7px solid var(--js-color) !important;
+  }
+
+
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
   
   .tag-item{
     margin-top: 5px;
