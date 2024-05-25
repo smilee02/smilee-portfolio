@@ -17,5 +17,7 @@
     "Deep Learning": "deep-learning-tag",
     "NLP": "nlp-tag",
     "Blender": "blender-tag",
-    "JavaScript": "js-tag"
+    "JavaScript": "js-tag",
+    "Next.js": "threejs-tag",
+    "SQLite": "machine-learning-tag"
 }

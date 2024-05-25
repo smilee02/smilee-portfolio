@@ -12,5 +12,29 @@
             "showcase",
             "impactful projects"
         ]
+    },
+    {
+        "title": "DiscordCloud",
+        "imageSrc": "discordcloud_1.webp",
+        "description": "Cloud storage application that utilizes Discord's platform for file storage and retrieval. It provides a simple way to upload, download, and manage files through a web interface. All files are encrypted for a extra layer of security. <br>This was for educational purposes.",
+        "tags": [
+            "React",
+            "JavaScript",
+            "Python",
+            "Next.js",
+            "SQLite"
+        ],
+        "specificWords": [
+            "Cloud storage",
+            "Discord's",
+            "file storage",
+            "retrieval",
+            "upload",
+            "download",
+            "manage files",
+            "All files",
+            "encrypted",
+            "educational purposes"
+        ]
     }
 ]
