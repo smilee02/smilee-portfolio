@@ -260,6 +260,41 @@
     border: 1.7px solid var(--js-color) !important;
   }
 
+  /* Multi Agent tag */
+  .multi-agent-tag {
+    border: 1.7px solid var(--prolog-color) !important;
+    box-shadow: 4px 5px 4px var(--prolog-box-shadow);
+  }
+  
+  .multi-agent-tag:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 1.7px solid var(--prolog-color) !important;
+  }
+
+    /* ROS tag */
+  .ros-tag {
+    border: 1.7px solid var(--machine-learning-color) !important;
+    box-shadow: 4px 5px 4px var(--machine-learning-box-shadow);
+  }
+  
+  .ros-tag:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 1.7px solid var(--machine-learning-color) !important;
+  }
+
+  /* Gazebo tag */
+  .gazebo-tag {
+    border: 1.7px solid var(--drools-color) !important;
+    box-shadow: 4px 5px 4px var(--drools-box-shadow);
+  }
+  
+  .gazebo-tag:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 1.7px solid var(--drools-color) !important;
+  }
 
   .unselectable {
     -webkit-touch-callout: none;

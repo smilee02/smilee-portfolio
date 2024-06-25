@@ -19,5 +19,8 @@
     "Blender": "blender-tag",
     "JavaScript": "js-tag",
     "Next.js": "threejs-tag",
-    "SQLite": "machine-learning-tag"
+    "SQLite": "machine-learning-tag",
+    "ROS": "ros-tag",
+    "Multi-Agent Systems": "multi-agent-tag",
+    "Gazebo": "gazebo-tag"
 }
