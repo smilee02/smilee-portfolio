@@ -81,7 +81,7 @@
     {
         "title": "AuctionVerse",
         "imageSrc": "auctionverse_1.webp",
-        "description": "An auction developed using Multi-Agent Systems in a simulated environment developed in Gazebo with ROS.<br> There is also a robot that helps guiding people to the seats in the auction room.",
+        "description": "An auction simulation developed using Multi-Agent Systems in a simulated environment developed with Gazebo and ROS.<br> In the simulation, there is a robot that helps guiding people to the seats in the auction room.",
         "tags": [
             "Python",
             "Multi-Agent Systems",
@@ -92,7 +92,7 @@
             "Gazebo",
             "ROS",
             "Multi-Agent Systems",
-            "auction",
+            "auction simulation",
             "robot",
             "helps guiding people",
             "seats"
