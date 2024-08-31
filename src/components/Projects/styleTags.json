@@ -22,5 +22,8 @@
     "SQLite": "machine-learning-tag",
     "ROS": "ros-tag",
     "Multi-Agent Systems": "multi-agent-tag",
-    "Gazebo": "gazebo-tag"
+    "Gazebo": "gazebo-tag",
+    "Lit": "lit-tag",
+    "HTML": "html-tag",
+    "CSS": "css-tag"
 }

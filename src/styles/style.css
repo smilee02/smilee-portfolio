@@ -1,72 +1,96 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(16, 17, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
+  --section-background-color: linear-gradient(to bottom left,
+      rgba(16, 17, 16, 0.582),
+      rgba(12, 8, 24, 0.904));
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(16, 17, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
+  --image-gradient: linear-gradient(to bottom left,
+      rgba(16, 17, 16, 0.582),
+      rgba(12, 8, 24, 0.904));
 
-  --border-color-default:1.7px solid rgba(144, 224, 239,0.636) !important;
+  --border-color-default: 1.7px solid rgba(144, 224, 239, 0.636) !important;
   --border-shadow-default: 4px 5px 4px 3px rgba(9, 113, 131, 0.131) !important;
 
-  --angular-color: rgba(221,0,49);
-  --angular-box-shadow: rgba(195,0,47,0.131);
+  --angular-color: rgba(221, 0, 49);
+  --angular-box-shadow: rgba(195, 0, 47, 0.131);
 
-  --nodejs-color: rgba(128,189,0);
-  --nodejs-box-shadow: rgba(0, 189, 0, 0.131);
+  --nodejs-color: rgba(98, 181, 74);
+  --nodejs-box-shadow: rgba(98, 181, 74, 0.131);
 
-  --mongodb-color: rgba(19, 212, 103);
-  --mongodb-box-shadow: rgba(10,147,78,0.131);
+  --mongodb-color: rgba(31, 136, 40);
+  --mongodb-box-shadow: rgba(31, 136, 40, 0.131);
 
-  --threejs-color: rgba(255, 255, 255);
-  --threejs-box-shadow: rgba(255, 255, 255, 0.131);
+  --threejs-color: rgb(211, 211, 211);
+  --threejs-box-shadow: rgba(211, 211, 211, 0.131);
 
-  --dotnet-color: rgba(147, 95, 203);
-  --dotnet-box-shadow: rgba(111, 47, 180, 0.131);
+  --dotnet-color: rgb(102, 87, 198);
+  --dotnet-box-shadow: rgba(72, 61, 139, 0.131);
 
-  --java-color: rgba(213, 129, 12);
-  --java-box-shadow: rgba(226, 112, 12, 0.131);
+  --tensorflow-color: rgba(255, 143, 0);
+  --tensorflow-box-shadow: rgba(255, 143, 0, 0.131);
 
-  --prolog-color: rgba(227, 72, 77);
-  --prolog-box-shadow: rgba(227, 72, 77, 0.131);
+  --python-color: rgba(53, 114, 165);
+  --python-box-shadow: rgba(53, 114, 165, 0.131);
 
-  --drools-color: rgb(255,138,18);
-  --drools-box-shadow: rgb(255,138,18,0.131);
+  --react-color: rgba(97, 218, 251);
+  --react-box-shadow: rgba(97, 218, 251, 0.131);
 
-  --genetic-algorithm-color: rgb(32, 199, 54);
-  --genetic-algorithm-box-shadow: rgb(32, 199, 54,0.131);
+  --prolog-color: rgb(205, 98, 36);
+  --prolog-box-shadow: rgba(205, 98, 36, 0.131);
 
-  --machine-learning-color: rgb(32, 129, 199);
-  --machine-learning-box-shadow: rgb(32, 129, 199,0.131);
+  --java-color: rgba(176, 114, 25);
+  --java-box-shadow: rgba(176, 114, 25, 0.131);
 
-  --python-color: rgb(255,229,104);
-  --python-box-shadow: rgba(177, 175, 62, 0.131);
+  --drools-color: rgba(27, 87, 183);
+  --drools-box-shadow: rgba(27, 87, 183, 0.131);
 
-  --react-native-color:rgb(97,219,251);
-  --react-native-box-shadow: rgb(97,219,251,0.131);
+  --genetic-algorithm-color: rgb(93, 161, 89);
+  --genetic-algorithm-box-shadow: rgba(93, 161, 89, 0.131);
 
-  --expo-color: rgb(70,48,235);
-  --expo-box-shadow: rgb(70,48,235,0.131);
+  --machine-learning-color: rgba(44, 130, 201);
+  --machine-learning-box-shadow: rgba(44, 130, 201, 0.131);
 
-  --deep-learning-color:rgb(128, 0, 128);
-  --deep-learning-box-shadow: rgb(128, 0, 128,0.131);
+  --react-native-color: rgba(51, 204, 255);
+  --react-native-box-shadow: rgba(51, 204, 255, 0.131);
 
-  --nlp-color: rgb(255, 165, 0);
-  --nlp-box-shadow: rgb(255, 165, 0,0.131);
+  --expo-color: rgba(116, 81, 255);
+  --expo-box-shadow: rgba(116, 81, 255, 0.131);
 
-  --blender-color: rgb(255, 165, 0);
-  --blender-box-shadow: rgb(255, 165, 0,0.131);
+  --deep-learning-color: rgba(235, 51, 51);
+  --deep-learning-box-shadow: rgba(235, 51, 51, 0.131);
 
-  --react-color:rgb(97,219,251);
-  --react-box-shadow: rgb(97,219,251,0.131);
+  --nlp-color: rgba(143, 66, 245);
+  --nlp-box-shadow: rgba(143, 66, 245, 0.131);
 
-  --js-color: rgb(246, 246, 8);
-  --js-box-shadow: rgb(246, 246, 8,0.131);
+  --blender-color: rgba(255, 136, 0);
+  --blender-box-shadow: rgba(255, 136, 0, 0.131);
+
+  --js-color: rgba(240, 219, 79);
+  --js-box-shadow: rgba(240, 219, 79, 0.131);
+
+  --nextjs-color: rgba(0, 0, 0);
+  --nextjs-box-shadow: rgba(0, 0, 0, 0.131);
+
+  --sqlite-color: rgba(91, 146, 229);
+  --sqlite-box-shadow: rgba(91, 146, 229, 0.131);
+
+  --ros-color: rgb(5, 91, 177);
+  --ros-box-shadow: rgba(5, 91, 177, 0.131);
+
+  --multi-agent-color: rgba(0, 102, 204);
+  --multi-agent-box-shadow: rgba(0, 102, 204, 0.131);
+
+  --gazebo-color: rgba(88, 123, 129);
+  --gazebo-box-shadow: rgba(88, 123, 129, 0.131);
+
+  --lit-color: rgba(50, 79, 255, 255);
+  --lit-box-shadow: rgba(50, 79, 255, 0.131);
+
+  --html-color: rgba(227, 76, 38);
+  --html-box-shadow: rgba(227, 76, 38, 0.131);
+
+  --css-color: rgba(38, 77, 228);
+  --css-box-shadow: rgba(38, 77, 228, 0.131);
+
 
   --imp-text-color: #48CAE4;
 }

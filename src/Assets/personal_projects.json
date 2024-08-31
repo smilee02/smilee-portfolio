@@ -36,5 +36,24 @@
             "encrypted",
             "educational purposes"
         ]
+    },
+    {
+        "title": "AI-Driven Editor",
+        "imageSrc": "aid_1.webp",
+        "description": "AID is a web component developed in Lit that helps make writing and editing easier using artificial intelligence. With AID, you can quickly generate new content and improve existing text. ",
+        "tags": [
+            "Lit",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "specificWords": [
+            "web component",
+            "Lit",
+            "writing and editing",
+            "artificial intelligence",
+            "generate new content",
+            "improve existing text"
+        ]
     }
 ]

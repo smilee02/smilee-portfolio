@@ -5,316 +5,389 @@
 /* --------- */
 
 .projects-section {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-    color: white !important;
-  }
-  
-  .quote-card-view .project-card-view{
-    margin-top: 5px;
-    border-radius: 4px;
-    margin: 15px !important;
-    padding: 20px !important;
-    opacity: 0.93 !important;
-    border: var(--border-color-default);
-    border-radius: 5px !important;
-    display: table !important;
-    box-shadow: var(--border-shadow-default);
-    overflow: hidden !important;
-    transition: all 0.4s ease 0s !important;
-    background: transparent;
-  }
-  
-  .tag-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 5px; 
-    flex-direction: row; 
-    text-align: justify;
-    justify-content: flex-start; 
-    margin-top: auto; 
-  }
-  
-  .project-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: flex-start; 
-  }
-  
-  /* Angular tag */
-  .angular-tag {
-    border: 1.7px solid var(--angular-color) !important;
-    box-shadow: 4px 5px 4px var(--angular-box-shadow);
-  }
-  
-  .angular-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--angular-color) !important;
-  }
-  
-  /* Node.js tag */
-  .nodejs-tag {
-    border: 1.7px solid var(--nodejs-color) !important;
-    box-shadow: 4px 5px 4px var(--nodejs-box-shadow);
-  }
-  
-  .nodejs-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--nodejs-color) !important;
-  }
-  
-  /* MongoDB tag */
-  .mongodb-tag {
-    border: 1.7px solid var(--mongodb-color) !important;
-    box-shadow: 4px 5px 4px var(--mongodb-box-shadow);
-  }
-  
-  .mongodb-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--mongodb-color) !important;
-  }
-  
-  /* Three.js tag */
-  .threejs-tag {
-    border: 1.7px solid var(--threejs-color) !important;
-    box-shadow: 4px 5px 4px var(--threejs-box-shadow);
-  }
-  
-  .threejs-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--threejs-color) !important;
-  }
-  
-  /* .NET tag */
-  .dotnet-tag {
-    border: 1.7px solid var(--dotnet-color) !important;
-    box-shadow: 4px 5px 4px var(--dotnet-box-shadow);
-  }
-  
-  .dotnet-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--dotnet-color) !important;
-  }
-  
-  /* Java tag */
-  .java-tag {
-    border: 1.7px solid var(--java-color) !important;
-    box-shadow: 4px 5px 4px var(--java-box-shadow);
-  }
-  
-  .java-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--java-color) !important;
-  }
-  
-  /* Prolog tag */
-  .prolog-tag {
-    border: 1.7px solid var(--prolog-color) !important;
-    box-shadow: 4px 5px 4px var(--prolog-box-shadow);
-  }
-  
-  .prolog-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--prolog-color) !important;
-  }
-  
-  /* Drools tag */
-  .drools-tag {
-    border: 1.7px solid var(--drools-color) !important;
-    box-shadow: 4px 5px 4px var(--drools-box-shadow);
-  }
-  
-  .drools-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--drools-color) !important;
-  }
-  
-  /* Genetic Algorithm tag */
-  .genetic-algorithm-tag {
-    border: 1.7px solid var(--genetic-algorithm-color) !important;
-    box-shadow: 4px 5px 4px var(--genetic-algorithm-box-shadow);
-  }
-  
-  .genetic-algorithm-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--genetic-algorithm-color) !important;
-  }
-  
-  /* Machine Learning tag */
-  .machine-learning-tag {
-    border: 1.7px solid var(--machine-learning-color) !important;
-    box-shadow: 4px 5px 4px var(--machine-learning-box-shadow);
-  }
-  
-  .machine-learning-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--machine-learning-color) !important;
-  }
-  
-  /* Python tag */
-  .python-tag {
-    border: 1.7px solid var(--python-color) !important;
-    box-shadow: 4px 5px 4px var(--python-box-shadow);
-  }
-  
-  .python-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--python-color) !important;
-  }
-  
-  /* React Native tag */
-  .react-native-tag {
-    border: 1.7px solid var(--react-native-color) !important;
-    box-shadow: 4px 5px 4px var(--react-native-box-shadow);
-  }
-  
-  .react-native-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--react-native-color) !important;
-  }
-  
-  /* Expo tag */
-  .expo-tag {
-    border: 1.7px solid var(--expo-color) !important;
-    box-shadow: 4px 5px 4px var(--expo-box-shadow);
-  }
-  
-  .expo-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--expo-color) !important;
-  }
-  
-  /* Deep Learning tag */
-  .deep-learning-tag {
-    border: 1.7px solid var(--deep-learning-color) !important;
-    box-shadow: 4px 5px 4px var(--deep-learning-box-shadow);
-  }
-  
-  .deep-learning-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--deep-learning-color) !important;
-  }
-  
-  /* NLP tag */
-  .nlp-tag {
-    border: 1.7px solid var(--nlp-color) !important;
-    box-shadow: 4px 5px 4px var(--nlp-box-shadow);
-  }
-  
-  .nlp-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--nlp-color) !important;
-  }
-
-  /* Blender tag */
-  .blender-tag {
-    border: 1.7px solid var(--blender-color) !important;
-    box-shadow: 4px 5px 4px var(--blender-box-shadow);
-  }
-  
-  .blender-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--blender-color) !important;
-  }
-
-  /* React tag */
-  .react-tag {
-    border: 1.7px solid var(--react-color) !important;
-    box-shadow: 4px 5px 4px var(--react-box-shadow);
-  }
-  
-  .react-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--react-color) !important;
-  }
-
-  /* JS tag */
-  .js-tag {
-    border: 1.7px solid var(--js-color) !important;
-    box-shadow: 4px 5px 4px var(--js-box-shadow);
-  }
-  
-  .js-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--js-color) !important;
-  }
-
-  /* Multi Agent tag */
-  .multi-agent-tag {
-    border: 1.7px solid var(--prolog-color) !important;
-    box-shadow: 4px 5px 4px var(--prolog-box-shadow);
-  }
-  
-  .multi-agent-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--prolog-color) !important;
-  }
-
-    /* ROS tag */
-  .ros-tag {
-    border: 1.7px solid var(--machine-learning-color) !important;
-    box-shadow: 4px 5px 4px var(--machine-learning-box-shadow);
-  }
-  
-  .ros-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--machine-learning-color) !important;
-  }
-
-  /* Gazebo tag */
-  .gazebo-tag {
-    border: 1.7px solid var(--drools-color) !important;
-    box-shadow: 4px 5px 4px var(--drools-box-shadow);
-  }
-  
-  .gazebo-tag:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 1.7px solid var(--drools-color) !important;
-  }
-
-  .unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
 }
-  
-  .tag-item{
-    margin-top: 5px;
-    border-radius: 4px;
-    margin-top: 15px !important;
-    margin-right: 15px !important;
-    padding: 7px !important;
-    opacity: 0.93 !important;
-    border-radius: 5px !important;
-    overflow: hidden !important;
-    transition: all 0.4s ease 0s !important;
-    background: transparent;
-    cursor: pointer;
-  }
+
+.quote-card-view .project-card-view {
+  margin-top: 5px;
+  border-radius: 4px;
+  margin: 15px !important;
+  padding: 20px !important;
+  opacity: 0.93 !important;
+  border: var(--border-color-default);
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: var(--border-shadow-default);
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background: transparent;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  flex-direction: row;
+  text-align: justify;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+
+.project-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+/* Angular tag */
+.angular-tag {
+  border: 1.7px solid var(--angular-color) !important;
+  box-shadow: 4px 5px 4px var(--angular-box-shadow);
+}
+
+.angular-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--angular-color) !important;
+}
+
+/* Node.js tag */
+.nodejs-tag {
+  border: 1.7px solid var(--nodejs-color) !important;
+  box-shadow: 4px 5px 4px var(--nodejs-box-shadow);
+}
+
+.nodejs-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--nodejs-color) !important;
+}
+
+/* MongoDB tag */
+.mongodb-tag {
+  border: 1.7px solid var(--mongodb-color) !important;
+  box-shadow: 4px 5px 4px var(--mongodb-box-shadow);
+}
+
+.mongodb-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--mongodb-color) !important;
+}
+
+/* Three.js tag */
+.threejs-tag {
+  border: 1.7px solid var(--threejs-color) !important;
+  box-shadow: 4px 5px 4px var(--threejs-box-shadow);
+}
+
+.threejs-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--threejs-color) !important;
+}
+
+/* .NET Core tag */
+.dotnet-tag {
+  border: 1.7px solid var(--dotnet-color) !important;
+  box-shadow: 4px 5px 4px var(--dotnet-box-shadow);
+}
+
+.dotnet-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--dotnet-color) !important;
+}
+
+/* Tensorflow tag */
+.tensorflow-tag {
+  border: 1.7px solid var(--tensorflow-color) !important;
+  box-shadow: 4px 5px 4px var(--tensorflow-box-shadow);
+}
+
+.tensorflow-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--tensorflow-color) !important;
+}
+
+/* Python tag */
+.python-tag {
+  border: 1.7px solid var(--python-color) !important;
+  box-shadow: 4px 5px 4px var(--python-box-shadow);
+}
+
+.python-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--python-color) !important;
+}
+
+/* React tag */
+.react-tag {
+  border: 1.7px solid var(--react-color) !important;
+  box-shadow: 4px 5px 4px var(--react-box-shadow);
+}
+
+.react-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--react-color) !important;
+}
+
+/* Prolog tag */
+.prolog-tag {
+  border: 1.7px solid var(--prolog-color) !important;
+  box-shadow: 4px 5px 4px var(--prolog-box-shadow);
+}
+
+.prolog-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--prolog-color) !important;
+}
+
+/* Java tag */
+.java-tag {
+  border: 1.7px solid var(--java-color) !important;
+  box-shadow: 4px 5px 4px var(--java-box-shadow);
+}
+
+.java-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--java-color) !important;
+}
+
+/* Drools tag */
+.drools-tag {
+  border: 1.7px solid var(--drools-color) !important;
+  box-shadow: 4px 5px 4px var(--drools-box-shadow);
+}
+
+.drools-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--drools-color) !important;
+}
+
+/* Genetic Algorithm tag */
+.genetic-algorithm-tag {
+  border: 1.7px solid var(--genetic-algorithm-color) !important;
+  box-shadow: 4px 5px 4px var(--genetic-algorithm-box-shadow);
+}
+
+.genetic-algorithm-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--genetic-algorithm-color) !important;
+}
+
+/* Machine Learning tag */
+.machine-learning-tag {
+  border: 1.7px solid var(--machine-learning-color) !important;
+  box-shadow: 4px 5px 4px var(--machine-learning-box-shadow);
+}
+
+.machine-learning-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--machine-learning-color) !important;
+}
+
+/* React Native tag */
+.react-native-tag {
+  border: 1.7px solid var(--react-native-color) !important;
+  box-shadow: 4px 5px 4px var(--react-native-box-shadow);
+}
+
+.react-native-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--react-native-color) !important;
+}
+
+/* Expo tag */
+.expo-tag {
+  border: 1.7px solid var(--expo-color) !important;
+  box-shadow: 4px 5px 4px var(--expo-box-shadow);
+}
+
+.expo-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--expo-color) !important;
+}
+
+/* Deep Learning tag */
+.deep-learning-tag {
+  border: 1.7px solid var(--deep-learning-color) !important;
+  box-shadow: 4px 5px 4px var(--deep-learning-box-shadow);
+}
+
+.deep-learning-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--deep-learning-color) !important;
+}
+
+/* NLP tag */
+.nlp-tag {
+  border: 1.7px solid var(--nlp-color) !important;
+  box-shadow: 4px 5px 4px var(--nlp-box-shadow);
+}
+
+.nlp-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--nlp-color) !important;
+}
+
+/* Blender tag */
+.blender-tag {
+  border: 1.7px solid var(--blender-color) !important;
+  box-shadow: 4px 5px 4px var(--blender-box-shadow);
+}
+
+.blender-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--blender-color) !important;
+}
+
+/* JavaScript tag */
+.js-tag {
+  border: 1.7px solid var(--js-color) !important;
+  box-shadow: 4px 5px 4px var(--js-box-shadow);
+}
+
+.js-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--js-color) !important;
+}
+
+/* Next.js tag */
+.nextjs-tag {
+  border: 1.7px solid var(--nextjs-color) !important;
+  box-shadow: 4px 5px 4px var(--nextjs-box-shadow);
+}
+
+.nextjs-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--nextjs-color) !important;
+}
+
+/* SQLite tag */
+.sqlite-tag {
+  border: 1.7px solid var(--sqlite-color) !important;
+  box-shadow: 4px 5px 4px var(--sqlite-box-shadow);
+}
+
+.sqlite-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--sqlite-color) !important;
+}
+
+/* ROS tag */
+.ros-tag {
+  border: 1.7px solid var(--ros-color) !important;
+  box-shadow: 4px 5px 4px var(--ros-box-shadow);
+}
+
+.ros-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--ros-color) !important;
+}
+
+/* Multi-Agent Systems tag */
+.multi-agent-tag {
+  border: 1.7px solid var(--multi-agent-color) !important;
+  box-shadow: 4px 5px 4px var(--multi-agent-box-shadow);
+}
+
+.multi-agent-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--multi-agent-color) !important;
+}
+
+/* Gazebo tag */
+.gazebo-tag {
+  border: 1.7px solid var(--gazebo-color) !important;
+  box-shadow: 4px 5px 4px var(--gazebo-box-shadow);
+}
+
+.gazebo-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--gazebo-color) !important;
+}
+
+/* Lit tag */
+.lit-tag {
+  border: 1.7px solid var(--lit-color) !important;
+  box-shadow: 4px 5px 4px var(--lit-box-shadow);
+}
+
+.lit-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--lit-color) !important;
+}
+
+/* HTML tag */
+.html-tag {
+  border: 1.7px solid var(--html-color) !important;
+  box-shadow: 4px 5px 4px var(--html-box-shadow);
+}
+
+.html-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--html-color) !important;
+}
+
+/* CSS tag */
+.css-tag {
+  border: 1.7px solid var(--css-color) !important;
+  box-shadow: 4px 5px 4px var(--css-box-shadow);
+}
+
+.css-tag:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 1.7px solid var(--css-color) !important;
+}
+
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tag-item {
+  margin-top: 5px;
+  border-radius: 4px;
+  margin-top: 15px !important;
+  margin-right: 15px !important;
+  padding: 7px !important;
+  opacity: 0.93 !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background: transparent;
+  cursor: pointer;
+}
